@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+
+        android:layout_margin="8dp"
+        android:text="تعود « اسحق نيوتن ، أن يقضي بعض الوقت قبل غروب الشمس في نزهة هادئة داخل الحديقة القريبة من منزله الصغير. ذات يوم دافيء خرج «اسحق، وهو يظن أنه خلي الذهن من شيء يفكر فيه ، بعدما انتهى في ساعات الصباح من أعمال شاقة شغلته منذ فترة طويلة عندما رأه أحد تلاميذه وهو في الطريق إلى الحديقة.. يسرع الخطي، وهو يهزهز ذراعيه ويطوحها في الهواء وكأنه يعبث مع كائنات غامضة يراها وحده ويلهو معها ، لم يحاول تلميذه أن يزعجه ولو انه قرر أن يتبعه من البعد. ربما شعر العالم بالإجهاد عندما جلس أخيرا تحت شجرة تفاح كبيرة ، ثم أمضى فترة طويلة ينظر في الافق البعيد حيث قرص الشمس كاد أن يختفي ، فانقسمت السماء إلى مجموعة حزم من الألوان الجميلة .. أعجبه مشهد ألوان الطيف من الأحمر والبرتقالي ، والبنفسجي والأصفر والأزرق والأخضر والنبلي، ، دائما ما كان يتعلق به ، ويعشق تامل ذلك المنظر الجميل في أثناء ذلك والعالم على حالته شارد إذا به يشعر بالاضطراب و الفزع نتيجة سقوط شيء ما فوق رأسه فجاة ."
+        android:textStyle="bold"
+        />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_margin="8dp"
+        android:text="لم يكن هذا الشيء إلا تفاحة ناضجة، فنهض وتناول التفاحة يتاملها ، وابتسم ، ربما قال في نفسه کیف لهذه التفاحة الناضجة أن تجعلني اضطرب كل هذا الاضطراب ؟!! ظل يطوح يده في الهواء والتفاحة بين اصابعه. عاد وجلس على الأرض ثم بدأ يأكل التفاحة . شعر بعدم الرغبة في متابعة التهام الثمرة ، والقاها إلى أعلى صائحا: عودي من حيث جئته كان تلميذ «نیوتن، مايزال يتابع استاذه من بعيد ، فهو نادرا ما يراه يمرح مع نفسه هكذا ."
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+
+</LinearLayout>

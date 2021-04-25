@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pc1.digitalstory.Main3Activity">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lecteur"
+        />
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La pomme"
+        android:textStyle="bold"
+        android:textSize="25dp"
+     android:padding="8dp"
+         />
+
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oiseau"
+        android:textStyle="bold"
+        android:layout_below="@id/t1"
+        android:padding="8dp"
+        android:textSize="25dp"
+         />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lire"
+        android:onClick="go2"
+        android:background="@color/B"
+        android:layout_margin="8dp"
+        android:layout_alignParentRight="true" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Lire"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:onClick="go3"
+        android:layout_below="@id/t1"
+        android:background="@color/B"
+         />
+    <Button
+        android:id="@+id/button6"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="@color/B"
+        android:layout_margin="8dp"
+        android:text="Bannière de publicité"/>
+</RelativeLayout>
+

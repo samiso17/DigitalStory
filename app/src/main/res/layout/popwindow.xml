@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@color/Black">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Digital Story" />
+    <TextView
+       android:id="@+id/t1"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_below="@id/textView5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Première version de l'application des histoires en ligne." />
+    <TextView
+        android:id="@+id/t2"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+       android:layout_marginTop="10dp"
+        android:layout_below="@id/t1"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Projet par : Association SAMA TOUNES." />
+    <TextView
+        android:id="@+id/t3"
+        android:shadowColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/t2"
+        android:textColor="@color/Red"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Réalisé par : san.com.tn" />
+    <TextView
+        android:id="@+id/t4"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+
+        android:layout_below="@id/t3"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Partenaires :" />
+    <TextView
+        android:id="@+id/t5"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t4"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ministère d'éducation" />
+    <TextView
+        android:id="@+id/t6"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t5"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="BH" />
+    <TextView
+        android:id="@+id/t7"
+        android:textColor="@color/Red"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/t6"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ministère de culture" />
+
+
+</RelativeLayout>

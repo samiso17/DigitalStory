@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+android:layout_weight="2"
+            android:layout_margin="8dp"
+            android:padding="5dp"
+            android:text="والذي أثار دهشته أكثر أن أستاذه ظل لفترة طويلة.. يمسك التفاحة ويرميها إلى أعلى  يعود ليكرر الرمية نفسها دون ملل ولفترة طويلة !! تسائل تلميذه : ماذا في رأس استاذي ؟ بعد مضي بعض الوقت عاد الاستاذ الي معمله إلا انه مازال يحمل التفاحة مما جعل التلميذ يزداد حيرة، تسائل : إن في الامر شيئاً، إن موضوع هذه التفاحة ليس لهواً ولا عبثاً من استاذي !!"
+            android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:text="احتفظ التلميذ بموقعه وهو يتابع أستاذه ، حتي انتبه له نیوتن، أخيرا ، وسأله فجاة : لماذا ياتلميذي لم تصعد التفاحة وسقطت إلى الأرض في كل مرة القيها إلى أعلى ؟ لم يجد تلميذه ما يعلق به . فكرر الأستاذ ذات السؤال وإن تأكد التلميذ أن أستاذه لا ينتظر إجابة منه ولكنه يسأل نفسه هو ، ودخل معمله وبقي داخله لفترة طويلة."
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+
+        android:layout_margin="8dp"
+        android:padding="5dp"
+        android:text="وفي صباح مشرق قال نيوتن لتلميذه : إن الذي جعل التفاحة تسقط إلى الأرض ولم تصعد إلى أعلى هو قوة خفية توجد في الأرض نفسها ، قوة قادرة على جذب الأشياء اليها وفيما بعد ابتسم نیوتن لتلميذه وهو يقول له: لم تكن تلك التفاحة الساحرة إلا سببا لاكتشاف تلك القوة الساحرة فعلا، تلك القوة التي سميتها الجاذبية الأرضية وأخيرا اعلموا يا أحباءنا أن الذي اودع هذه القوة الخفية الجاذبية في الأرض هو الله سبحانه وتعالى خالق السموات والأرض وما فيهن . فسبحانك يارب ما اعظم قدرتك."
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="Quiz"
+        android:onClick="quiz1"
+        android:background="@color/O"
+        android:layout_gravity="center"
+        android:layout_margin="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+</LinearLayout>
